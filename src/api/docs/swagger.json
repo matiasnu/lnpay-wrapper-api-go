@@ -1,0 +1,37 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "description": "This is a wrapper golang api for lnpay.",
+        "title": "LNPay Wrapper API",
+        "termsOfService": "http://swagger.io/terms/",
+        "contact": {
+            "name": "Matias Nuñez",
+            "url": "http://www.swagger.io/support",
+            "email": "matiasne45@gmail.com"
+        },
+        "license": {
+            "name": "Apache 2.0",
+            "url": "http://www.apache.org/licenses/LICENSE-2.0.html"
+        },
+        "version": "1.0"
+    },
+    "paths": {
+        "/ping": {
+            "get": {
+                "description": "test if the router works correctly",
+                "produces": [
+                    "application/json"
+                ],
+                "tags": [
+                    "ping"
+                ],
+                "summary": "Ping",
+                "responses": {
+                    "200": {
+                        "description": ""
+                    }
+                }
+            }
+        }
+    }
+}

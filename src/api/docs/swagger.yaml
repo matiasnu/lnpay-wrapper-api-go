@@ -1,0 +1,25 @@
+info:
+  contact:
+    email: matiasne45@gmail.com
+    name: Matias Nuñez
+    url: http://www.swagger.io/support
+  description: This is a wrapper golang api for lnpay.
+  license:
+    name: Apache 2.0
+    url: http://www.apache.org/licenses/LICENSE-2.0.html
+  termsOfService: http://swagger.io/terms/
+  title: LNPay Wrapper API
+  version: "1.0"
+paths:
+  /ping:
+    get:
+      description: test if the router works correctly
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: ""
+      summary: Ping
+      tags:
+      - ping
+swagger: "2.0"

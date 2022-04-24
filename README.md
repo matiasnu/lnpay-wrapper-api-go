@@ -1,2 +1,2 @@
 # lnpay-wrapper-api-go
-LNPay Wrapper API
+LNPay Wrapper Golang API for https://lnpay.co/.
